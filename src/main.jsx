@@ -3,12 +3,13 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 
 import { HooksApp } from "./HooksApp";
+import { Memorize } from "./memos/Memorize";
 // import { CounterApp } from "./useState/CounterApp";
 // import { CounterWithCustomHook } from "./useState/CounterWithCustomHook";
 // import { SimpleForm } from "./useEffect/SimpleForm";
 // import { FormWithCustomHook } from "./useEffect/FormWithCustomHook";
 // import { MultipleCustomHooks } from "./examples/MultipleCustomHooks";
-import { FocusScreen } from "./useRef/FocusScreen";
+// import { FocusScreen } from "./useRef/FocusScreen";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <SimpleForm /> */}
     {/* <FormWithCustomHook /> */}
     {/* <MultipleCustomHooks /> */}
-    <FocusScreen />
+    {/* <FocusScreen /> */}
+    <Memorize />
   </React.StrictMode>
 );
