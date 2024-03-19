@@ -7,7 +7,8 @@ import { HooksApp } from "./HooksApp";
 // import { CounterWithCustomHook } from "./useState/CounterWithCustomHook";
 // import { SimpleForm } from "./useEffect/SimpleForm";
 // import { FormWithCustomHook } from "./useEffect/FormWithCustomHook";
-import { MultipleCustomHooks } from "./examples/MultipleCustomHooks";
+// import { MultipleCustomHooks } from "./examples/MultipleCustomHooks";
+import { FocusScreen } from "./useRef/FocusScreen";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <CounterWithCustomHook /> */}
     {/* <SimpleForm /> */}
     {/* <FormWithCustomHook /> */}
-    <MultipleCustomHooks />
+    {/* <MultipleCustomHooks /> */}
+    <FocusScreen />
   </React.StrictMode>
 );
