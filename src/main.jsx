@@ -11,7 +11,8 @@ import { HooksApp } from "./HooksApp";
 // import { FocusScreen } from "./useRef/FocusScreen";
 // import { Memorize } from "./memos/Memorize";
 // import { MemoHook } from "./memos/MemoHook";
-import { CallbackHook } from "./memos/CallbackHook";
+// import { CallbackHook } from "./memos/CallbackHook";
+import { Padre } from "./tarea-memo/Padre";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -24,6 +25,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <FocusScreen /> */}
     {/* <Memorize /> */}
     {/* <MemoHook/>*/}
-    <CallbackHook />
+    {/* <CallbackHook /> */}
+    <Padre/>
   </React.StrictMode>
 );
