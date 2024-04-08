@@ -6,6 +6,17 @@ export const todoReducer = (initialState = [], action) => {
     case "[TODO] Remove Todo":
       // retornar todos que no sean el que se quiera borrar
       return initialState.filter((todo) => todo.id !== action.payload);
+    
+      case "[TODO] Toggle Todo":
+        return initialState.map((todo) => {
+          if (todo.id === action.payload) {
+            return {
+              ...todo,
+              done: !todo.done,
+            };
+          }
+          return todo;
+        });
 
     default:
       initialState;
