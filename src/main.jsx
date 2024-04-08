@@ -14,18 +14,20 @@ import { MemoHook } from "./memos/MemoHook";
 import { CallbackHook } from "./memos/CallbackHook";
 import { Padre } from "./tarea-memo/Padre";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <HooksApp />
-    <CounterApp />
-    <CounterWithCustomHook />
-    <SimpleForm />
-    <FormWithCustomHook />
-    <MultipleCustomHooks />
-    <FocusScreen />
-    <Memorize />
-    <MemoHook />
-    <CallbackHook />
-    <Padre />
-  </React.StrictMode>
-);
+import './useReducer/intro-reducer.js'
+
+// ReactDOM.createRoot(document.getElementById("root")).render(
+//   <React.StrictMode>
+//     <HooksApp />
+//     <CounterApp />
+//     <CounterWithCustomHook />
+//     <SimpleForm />
+//     <FormWithCustomHook />
+//     <MultipleCustomHooks />
+//     <FocusScreen />
+//     <Memorize />
+//     <MemoHook />
+//     <CallbackHook />
+//     <Padre />
+//   </React.StrictMode>
+// );
