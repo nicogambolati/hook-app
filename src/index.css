@@ -13,3 +13,7 @@ button {
     height: 200px;
     text-align: center;
 }
+
+a {
+    margin-right: 5px;
+}
